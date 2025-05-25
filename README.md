@@ -8,4 +8,8 @@ In this example, we have a base VisualComponent class, and we use decorators lik
  
 C#
 
+.NET Framework 8.0
 
+### 🤝 Contributing
+ 
+Feel free to fork the repository, submit pull requests, or open issues for improvements and discussions.
