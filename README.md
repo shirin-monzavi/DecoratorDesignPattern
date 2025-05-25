@@ -1,3 +1,38 @@
+# 🎯 Decorator Pattern with C#
+
+This project demonstrates the Decorator Pattern applied in C#. The pattern allows you to add functionality to an object dynamically, without changing its structure.
+In this example, we have a base VisualComponent class, and we use decorators like BorderDecorator and ScrollDecorator to add extra behaviors (drawing borders, adding scrollbars) to a base component (TextView).
+
+## 📌 What is the Composite Pattern?
+
+The Composite Pattern is a structural design pattern that allows you to compose objects into tree structures to represent part-whole hierarchies. It lets clients treat individual objects and compositions uniformly.
+
+
+## 🧩 Classes
+
+### `MenuComponent` (Abstract)
+
+- Defines a common interface for all menu elements.
+- Methods: `Add()`, `Remove()`, `Display()`.
+
+### `MenuItem` (Leaf)
+
+- Represents a single item.
+- Overrides `Display()` to print its name.
+
+### `Menu` (Composite)
+
+- Represents a collection of `MenuComponent` items.
+- Overrides `Add()`, `Remove()`, and `Display()`.
+
+---
+
+### 🛠️ Technologies Used
+ 
+C#
+
+
+
 Decorator Pattern with C#
 This project demonstrates the Decorator Pattern applied in C#. The pattern allows you to add functionality to an object dynamically, without changing its structure.
 
